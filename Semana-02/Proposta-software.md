@@ -1,98 +1,118 @@
-# Proposta de Intervenção Técnica e Ética  
-## Atividade Prática – O Dilema da IA Contratadora  
-
-Curso: Tecnologia em Sistemas para Internet  
-Componente Curricular: Engenharia de Software  
-Professor: Gaio B. Oliveira  
+# Proposta de Intervenção Técnica e Ética
+## O Dilema da IA Contratadora
 
 ---
 
-## 1. Análise do Dilema
+## 1. Análise do Problema
 
-A startup desenvolveu um software de Inteligência Artificial para triagem de currículos.  
-Durante os testes, foi identificado que o algoritmo apresenta **viés algorítmico**, favorecendo determinados perfis demográficos e prejudicando grupos minoritários.
+O sistema de inteligência artificial desenvolvido apresenta **viés algorítmico**, favorecendo determinados perfis demográficos e discriminando grupos minoritários.  
 
-Esse problema surge porque o modelo foi treinado com dados históricos que já continham preconceitos implícitos.
+Esse problema decorre do uso de **dados históricos enviesados**, o que compromete a equidade do processo de seleção.
 
-### Riscos identificados:
-
-- ⚖ Risco jurídico (LGPD – Art. 20)
-- 💰 Risco financeiro (multas e processos)
-- 📉 Risco reputacional
-- ⚠ Violação de princípios éticos da Engenharia de Software
+Além disso, há pressão organizacional para lançamento rápido, criando um conflito entre:
+- Qualidade técnica e ética
+- Interesses financeiros e responsabilidade social
 
 ---
 
-## 2. Aplicação do Código de Ética ACM/IEEE
+## 2. Análise Ética (ACM/IEEE)
 
-### Cláusula 1.03
-Aprovar software somente se houver crença fundamentada de que ele é seguro e não prejudica a sociedade.
+### Cláusula 1.03 – Honestidade
+Os profissionais devem ser transparentes sobre limitações e riscos do sistema.
 
-**Aplicação:**  
-O sistema está discriminando candidatos. Portanto, não pode ser aprovado para lançamento enquanto o problema não for corrigido.
-
----
-
-### Cláusula 3.01
-Garantir que o software seja desenvolvido seguindo altos padrões profissionais e éticos.
-
-**Aplicação:**  
-Ignorar o viés para acelerar o lançamento seria negligência profissional e violaria a responsabilidade social do engenheiro de software.
+**Aplicação no caso:**
+- A equipe identificou o viés e comunicou o problema
+- Lançar o sistema sem correção violaria essa cláusula
 
 ---
 
-## 3. Comparação das Soluções Técnicas
+### Cláusula 3.01 – Qualidade do Produto
+Os engenheiros devem garantir que o software atenda padrões adequados de qualidade.
 
-| Solução | Prós | Contras | Avaliação Ética |
-|----------|------|---------|----------------|
-| Lançar como está | Não atrasa investidores | Alto risco jurídico e reputacional | ❌ Antiética |
-| Human-in-the-loop | Reduz exclusão automática | Ainda mantém viés no ranking | ✔ Parcial |
-| Toolkit de Explicabilidade (XAI) | Transparência e alinhamento com LGPD | Pode expor parte da lógica interna | ✔ Boa prática |
-| Auditoria de Dados (4 semanas) | Corrige o problema na raiz | Pequeno atraso no lançamento | ✅ Melhor opção |
+**Aplicação no caso:**
+- Um sistema que discrimina não atende aos requisitos de qualidade
+- O viés compromete a confiabilidade e justiça do software
 
 ---
 
-## 4. Impacto Financeiro
+## 3. Risco Jurídico (LGPD)
 
-### Cenário 1 – Processo Judicial
-- Multas de até 2% do faturamento (limitadas a R$ 50 milhões por infração).
-- Custos com advogados.
-- Danos à imagem da empresa.
-- Possível perda de investidores.
+De acordo com o Art. 20 da LGPD:
 
-### Cenário 2 – Atraso de 4 semanas
-- Custo operacional adicional.
-- Pequeno atraso estratégico.
-- Preservação da reputação.
-- Redução de riscos legais.
-
-**Conclusão financeira:**  
-O custo de um processo judicial é potencialmente muito maior do que o impacto de um atraso de 4 semanas para auditoria.
+- Usuários podem solicitar revisão de decisões automatizadas
+- O sistema atual pode gerar:
+  - Processos judiciais
+  - Multas significativas
+  - Danos à reputação da empresa
 
 ---
 
-## 5. Proposta Final do Time (Solução Integrada)
+## 4. Comparação de Soluções Técnicas
 
-Propomos uma estratégia combinada:
-
-1. Realizar Auditoria de Dados (atraso de 4 semanas).
-2. Implementar temporariamente o modelo Human-in-the-loop.
-3. Adicionar módulo de explicabilidade (XAI).
-4. Garantir mecanismo de revisão humana conforme Art. 20 da LGPD.
-
-Essa solução equilibra:
-
-- Responsabilidade social
-- Conformidade legal
-- Qualidade técnica
-- Sustentabilidade financeira
+| Solução                  | Vantagens                                                                 | Desvantagens                                                                 |
+|-------------------------|-------------------------------------------------------------------------|------------------------------------------------------------------------------|
+| Lançar como está        | Sem atraso, retorno imediato                                             | Alto risco jurídico, discriminação, danos à imagem                           |
+| Human-in-the-loop       | Reduz decisões injustas, mantém controle humano                         | Aumenta custo operacional e tempo de análise                                 |
+| XAI (Explicabilidade)   | Transparência, alinhamento com LGPD                                     | Pode expor lógica interna e segredos do sistema                              |
+| Auditoria de Dados      | Reduz viés na raiz do problema                                          | Atraso de 4 semanas e custo adicional                                        |
 
 ---
 
-## 6. Conclusão
+## 5. Análise Financeira
 
-A Engenharia de Software exige responsabilidade ética além da competência técnica.  
-Lançar um sistema enviesado comprometeria direitos fundamentais e poderia gerar graves consequências legais e financeiras.
+### Cenário 1 – Lançamento imediato
+- Possível economia de curto prazo
+- Risco de:
+  - Multas da LGPD
+  - Processos judiciais em massa
+  - Perda de clientes e credibilidade
 
-Seguindo o Código de Ética ACM/IEEE, a decisão mais responsável é realizar a auditoria e implementar mecanismos de transparência antes do lançamento.
+### Cenário 2 – Atraso de 4 semanas (Auditoria)
+- Custo adicional controlado
+- Redução significativa de riscos legais
+- Melhoria da qualidade do produto
 
+**Conclusão financeira:**
+O custo de um processo judicial e danos reputacionais é potencialmente muito maior do que o atraso de 4 semanas.
+
+---
+
+## 6. Proposta de Solução (Abordagem Recomendada)
+
+A melhor estratégia é uma **solução combinada**, integrando técnica e ética:
+
+### ✔️ Auditoria de Dados (prioritário)
+- Corrigir o viés na origem
+- Reduzir discriminação algorítmica
+
+### ✔️ Human-in-the-loop
+- Garantir revisão humana em casos críticos
+- Evitar decisões automatizadas injustas
+
+### ✔️ Implementação parcial de XAI
+- Aumentar transparência
+- Atender requisitos da LGPD
+
+---
+
+## 7. Justificativa da Solução
+
+Essa abordagem:
+
+- Atende às exigências legais da LGPD  
+- Reduz riscos jurídicos e financeiros  
+- Garante maior justiça no processo de seleção  
+- Mantém a viabilidade do produto no mercado  
+- Demonstra responsabilidade ética da empresa  
+
+---
+
+## 8. Conclusão
+
+A solução proposta equilibra **eficiência, ética e conformidade legal**.
+
+Lançar o sistema sem correções seria uma decisão tecnicamente inadequada e eticamente irresponsável.  
+
+A adoção de uma abordagem híbrida permite mitigar riscos, melhorar a qualidade do software e preservar a reputação da empresa no longo prazo.
+
+---
