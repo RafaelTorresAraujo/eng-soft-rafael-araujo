@@ -3,7 +3,7 @@
 ## Apresentação
 
 **Analista:**  
-Olá, tudo bem? Meu nome é [Seu Nome], sou analista de sistemas. Estou aqui para entender melhor o seu negócio e identificar como um software pode te ajudar no dia a dia. Podemos conversar um pouco?
+Olá, tudo bem? Meu nome é Rafael Torres, sou analista de sistemas. Estou aqui para entender melhor o seu negócio e identificar como um software pode te ajudar no dia a dia. Podemos conversar um pouco?
 
 **Cliente:**  
 Olá, tudo bem sim. Claro, podemos conversar.
