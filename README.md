@@ -26,6 +26,7 @@ Clique nos links abaixo para acessar os arquivos de cada semana:
 * [Semana 06 - ChatBot](./semana-06/)
 * [Semana 08 - Documentaçao de Requisitos e Primeiras Validaçoes do Cliente](./semana-08/)
 * [Semana 09 - Diagramas](./semana-09/)
+* [Semana 10 - Exercicios de Revisao](./semana-10/)
   
 
 ---
