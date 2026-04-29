@@ -1,4 +1,4 @@
-# 🏨 Hotel Bela Vista — Modelagem UML (PIM)
+# Hotel Bela Vista — Modelagem UML (PIM)
 
 > Atividade da Semana 9 — Modelagem de Sistemas e MDE  
 > Disciplina: Engenharia de Software
@@ -11,7 +11,7 @@ PIM (Platform Independent Model) do sistema de reservas do Hotel Bela Vista, com
 
 ---
 
-## Estudante 1 — Diagrama de Sequência
+## Estudante 1 — Diagrama de Sequência Rafael
 *Perspectiva de Interação: troca de mensagens ao realizar uma reserva*
 
 ```mermaid
@@ -43,7 +43,7 @@ sequenceDiagram
 
 ---
 
-## Estudante 2 — Diagrama de Classes
+## Estudante 2 — Diagrama de Classes David
 *Perspectiva Estrutural: entidades, atributos, métodos e relacionamentos*
 
 ```mermaid
@@ -115,7 +115,7 @@ classDiagram
 
 ---
 
-## Estudante 3 — Diagrama de Estados
+## Estudante 3 — Diagrama de Estados Andre
 *Perspectiva Comportamental: ciclo de vida completo de uma reserva*
 
 ```mermaid
