@@ -1,4 +1,4 @@
-# 🌩️ SAI — Sistema de Antecipação Inteligente
+#  SAI — Sistema de Antecipação Inteligente
 ### Projeto Final — Etapa 1 | Desenvolvimento Ágil com Scrum
 
 > **Curso:** Tecnologia em Sistemas para Internet  
@@ -8,7 +8,7 @@
 
 ---
 
-## 👥 Integrantes do Grupo
+##  Integrantes do Grupo
 
 | Nome | Função |
 |------|--------|
@@ -20,17 +20,17 @@
 
 ---
 
-## 📌 Atividade 2 — Escolha do Problema
+##  Atividade 2 — Escolha do Problema
 
 O projeto escolhido pelo grupo foi o **SAI — Sistema de Antecipação Inteligente**. Trata-se de uma plataforma criada para auxiliar prefeituras, órgãos da Defesa Civil e empresas logísticas no monitoramento e antecipação de riscos climáticos e operacionais.
 
 O sistema busca resolver problemas relacionados a enchentes, tempestades, bloqueios de rotas, demora na tomada de decisão e falta de alertas preventivos. A proposta do SAI é utilizar monitoramento inteligente, análise operacional e alertas automáticos para ajudar gestores a agir **antes que os problemas aconteçam**.
 
-> ⚠️ **Problema Central:** Gestores públicos e privados tomam decisões sobre riscos climáticos e logísticos com informações tardias, fragmentadas e sem integração. Isso resulta em atrasos na resposta a desastres, prejuízos logísticos e risco à vida de cidadãos em áreas vulneráveis.
+>  **Problema Central:** Gestores públicos e privados tomam decisões sobre riscos climáticos e logísticos com informações tardias, fragmentadas e sem integração. Isso resulta em atrasos na resposta a desastres, prejuízos logísticos e risco à vida de cidadãos em áreas vulneráveis.
 
 ---
 
-## 🎯 Atividade 3 — Visão do Produto e Personas
+##  Atividade 3 — Visão do Produto e Personas
 
 ### Visão do Produto
 
@@ -40,14 +40,14 @@ O sistema busca resolver problemas relacionados a enchentes, tempestades, bloque
 
 | # | Persona | Objetivo Principal | Dor Principal |
 |---|---------|-------------------|---------------|
-| 🚨 | Coordenador da Defesa Civil | Agir antes de desastres | Recebe informações tarde demais |
-| 🏛️ | Gestora Pública | Tomar decisões rápidas e embasadas | Falta de dados organizados e centralizados |
-| 🚛 | Gerente Logístico | Evitar prejuízos operacionais | Não consegue prever problemas de rota |
-| 👨‍👩‍👧 | Cidadão em Área de Risco | Proteger a família com antecedência | Não recebe alertas antecipados |
+|  | Coordenador da Defesa Civil | Agir antes de desastres | Recebe informações tarde demais |
+|  | Gestora Pública | Tomar decisões rápidas e embasadas | Falta de dados organizados e centralizados |
+|  | Gerente Logístico | Evitar prejuízos operacionais | Não consegue prever problemas de rota |
+|  | Cidadão em Área de Risco | Proteger a família com antecedência | Não recebe alertas antecipados |
 
 ---
 
-## 📋 Atividade 4 — Product Backlog Inicial
+##  Atividade 4 — Product Backlog Inicial
 
 O time elicitou os requisitos a partir das necessidades das personas, utilizando o formato padrão de Histórias de Usuário **(User Stories — 3W)**:  
 `"Como um [papel], eu quero [funcionalidade] para [benefício]"`
@@ -67,16 +67,16 @@ O time elicitou os requisitos a partir das necessidades das personas, utilizando
 
 ---
 
-## 🏷️ Atividade 5 — Priorização de Backlog e Valor de Negócio
+##  Atividade 5 — Priorização de Backlog e Valor de Negócio
 
 ### Método 1: Matriz MoSCoW
 
 | Classificação | Descrição |
 |---------------|-----------|
-| 🔵 **Must Have** | MVP obrigatório — o software não funciona sem isso |
-| 🔷 **Should Have** | Importante, mas o sistema sobrevive sem na primeira entrega |
-| ⬜ **Could Have** | Desejável se houver tempo e orçamento |
-| ⬛ **Won't Have** | Fora do escopo atual — registrado para releases futuras |
+|  **Must Have** | MVP obrigatório — o software não funciona sem isso |
+|  **Should Have** | Importante, mas o sistema sobrevive sem na primeira entrega |
+|  **Could Have** | Desejável se houver tempo e orçamento |
+|  **Won't Have** | Fora do escopo atual — registrado para releases futuras |
 
 | ID | Funcionalidade | Classificação |
 |----|---------------|---------------|
@@ -99,10 +99,10 @@ O time elicitou os requisitos a partir das necessidades das personas, utilizando
 
 | Quadrante | Valor | Esforço | Ação |
 |-----------|-------|---------|------|
-| ⚡ **Vitória Rápida** | Alto | Baixo | Prioridade máxima — puxar para a Sprint |
-| 🏗️ **Grande Projeto** | Alto | Alto | Quebrar em tarefas menores antes de executar |
-| 🔹 **Preenchimento** | Baixo | Baixo | Fazer apenas se o time estiver livre |
-| ⏳ **Sumidouro de Tempo** | Baixo | Alto | Descartar imediatamente |
+|  **Vitória Rápida** | Alto | Baixo | Prioridade máxima — puxar para a Sprint |
+|  **Grande Projeto** | Alto | Alto | Quebrar em tarefas menores antes de executar |
+|  **Preenchimento** | Baixo | Baixo | Fazer apenas se o time estiver livre |
+|  **Sumidouro de Tempo** | Baixo | Alto | Descartar imediatamente |
 
 | ID | Funcionalidade | Valor (1–5) | Esforço (1–5) | Quadrante |
 |----|---------------|:-----------:|:-------------:|-----------|
@@ -119,15 +119,15 @@ O time elicitou os requisitos a partir das necessidades das personas, utilizando
 
 ---
 
-## 🚀 Product Backlog Refatorado e Ordenado
+##  Product Backlog Refatorado e Ordenado
 
 > A história na posição **#1 é a mais prioritária do projeto**. A ordenação combina MoSCoW + Quadrante de Valor vs. Esforço.
 
 | Rank | ID | Funcionalidade | Motivo da Prioridade | Quadrante |
 |:----:|----|---------------|----------------------|-----------|
-| 🥇 1° | US02 | Alertas automáticos de risco | Vitória Rápida + Must Have — núcleo do sistema | ⚡ Vitória Rápida |
-| 🥈 2° | US03 | Cadastro de áreas de risco | Vitória Rápida + Must Have — habilita o monitoramento | ⚡ Vitória Rápida |
-| 🥉 3° | US08 | Classificação de alertas por gravidade | Vitória Rápida + Must Have — prioriza respostas | ⚡ Vitória Rápida |
+|  1° | US02 | Alertas automáticos de risco | Vitória Rápida + Must Have — núcleo do sistema | ⚡ Vitória Rápida |
+|  2° | US03 | Cadastro de áreas de risco | Vitória Rápida + Must Have — habilita o monitoramento | ⚡ Vitória Rápida |
+|  3° | US08 | Classificação de alertas por gravidade | Vitória Rápida + Must Have — prioriza respostas | ⚡ Vitória Rápida |
 | 4° | US01 | Painel operacional de riscos | Must Have — visibilidade do cenário geral | 🏗️ Grande Projeto |
 | 5° | US04 | Mapa interativo de áreas de risco | Must Have — visualização espacial crítica | 🏗️ Grande Projeto |
 | 6° | US09 | Controle de usuários e permissões | Must Have — segurança do sistema | 🏗️ Grande Projeto |
@@ -142,7 +142,7 @@ O time elicitou os requisitos a partir das necessidades das personas, utilizando
 
 <div align="center">
 
-**SAI — Sistema de Antecipação Inteligente** · Etapa 1 concluída ✅
+**SAI — Sistema de Antecipação Inteligente** · Etapa 1 concluída 
 
 *Engenharia de Software · Tecnologia em Sistemas para Internet*
 
