@@ -27,7 +27,8 @@ Clique nos links abaixo para acessar os arquivos de cada semana:
 * [Semana 08 - Documentaçao de Requisitos e Primeiras Validaçoes do Cliente](./semana-08/)
 * [Semana 09 - Diagramas](./semana-09/)
 * [Semana 10 - Exercicios de Revisao](./semana-10/)
-* [Semana 12 - Projeto final Etapa 1](./semana-12/)
+* [Semana 14 - Projeto final Etapa 1](./semana-12/)
+* [Semana 15 - Projeto final Etapa 2](./semana-15/)
   
 
 ---
