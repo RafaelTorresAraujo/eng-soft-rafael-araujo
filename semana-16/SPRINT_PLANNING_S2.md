@@ -23,7 +23,7 @@
 | 3 | Corrigir duplicação de alertas regionais no dashboard | 3 | Rafael Torres | 🔲 A fazer |
 | 4 | Sistema de notificação: alertas críticos por e-mail / push (MVP) | 5 | Rafael Torres | 🔲 A fazer |
 | 5 | Diferenciação visual de severidade nos alertas (Alto / Médio / Baixo) | 3 | Rafael Torres | 🔲 A fazer |
-| 6 | CRUD de Estações — tela Admin | 3 | Fael | 🔲 A fazer |
+| 6 | CRUD de Estações — tela Admin | 3 | Rafael Torres | 🔲 A fazer |
 | 7 | Detalhe do score IA: exibir breakdown de critérios no Parecer Operacional | 2 | Rafael Torres | 🔲 A fazer |
 | 8 | Documentação técnica: README + arquitetura atualizada no GitHub | 2 | Time (todos) | 🔲 A fazer |
 
