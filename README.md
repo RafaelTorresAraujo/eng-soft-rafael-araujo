@@ -29,6 +29,7 @@ Clique nos links abaixo para acessar os arquivos de cada semana:
 * [Semana 10 - Exercicios de Revisao](./semana-10/)
 * [Semana 14 - Projeto final Etapa 1](./semana-12/)
 * [Semana 15 - Projeto final Etapa 2](./semana-15/)
+* [Semana 16 - Projeto final Sprints](./semana-16/)
   
 
 ---
