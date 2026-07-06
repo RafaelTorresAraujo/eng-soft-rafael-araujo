@@ -31,6 +31,7 @@ Clique nos links abaixo para acessar os arquivos de cada semana:
 * [Semana 15 - Projeto final Etapa 2](./semana-15/)
 * [Semana 16 - Projeto final Sprints](./semana-16/)
 * [Semana 17 - Projeto final Sprints](./semana-17/)
+* [Semana 18 - Projeto final Sprints](./semana-18/)
   
 
 ---
